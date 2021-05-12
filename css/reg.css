@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 218, 238);
+    
+
+}
+.registerbox{
+    width: 500px;
+    height: 550px;
+    background:rgb(252, 218, 238);
+    
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    margin-bottom: 60px;
+    margin-top: -30px;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    top: 10%;
+}
+.registerbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;}
+
+.registerbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.registerbox input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+
+}
+.registerbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: palevioletred;;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:20px;
+   
+
+}
+.registerbox input[type="submit"]:hover
+{ background: grey;}
+
+.genderbox{
+ padding: 5px;
+
+ display: flex;
+
+}
+.genderbox input[type="radio"]
+{
+    position: relative;
+    padding: 10px;
+}
+.genderbox label {
+    position: relative;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.back button{
+    font-weight: 600;
+    color:black;
+    text-transform: uppercase;
+    background:rgb(252, 218, 238); 
+    border-radius: 0px;
+    padding: 5px 25px ; 
+   
+}
+.back a{
+    text-decoration: none;
+    color:black;
+}
+.btn{
+    border: none;
+    outline: none;
+    background: palevioletred;;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius:10px;
+    cursor: pointer;
+
+}
+.btn1{
+    border: none;
+    outline: none;
+    background: palevioletred;;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+    border-radius:10px;
+    cursor: pointer;
+    width: 75px;
+    margin-top: 10px;
+
+
+}
+.btn1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity:0.6 ;
+
+}
+.signupMsg{
+    color: green;
+    text-align: center;
+    font-size: large;
+    
+
+ 
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.site-header{
+    width: 100%;
+    height: 100%;
+    background: rgb(252, 218, 238);
+
+}

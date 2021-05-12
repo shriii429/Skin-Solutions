@@ -1,0 +1,103 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.site-header{
+    width: 100%;
+    height: 100%;
+    background: rgb(252, 218, 238);
+
+}
+.navbar{
+    width: 100%; height: 100px;
+    display: flex; color:black;
+    
+}
+.logo img{
+    width: 110%;
+    height: 600px;
+}
+ .menu {
+    
+    list-style: none;
+    text-decoration: none;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:  center;
+    padding-left: 90px; padding-top: 30px;}
+    
+.menu1 {
+    
+        list-style: none;
+        text-decoration: none;
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items:  center;
+        padding-left: 100px; padding-top: 30px;
+}
+ .menu li a{
+    text-decoration: none;
+   
+    color: black;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items:  center;
+ }
+
+ .menu1 li a{
+    text-decoration: none;
+   
+    color: black;
+    font-size: 20px;
+    padding: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    align-items:  center;
+ }
+section {display: flex; align-items: center;}
+
+ .leftside { width: 45%; height: 1%; overflow: hidden; margin-top: 20px; background: black;}
+ 
+ .leftside img{  width: 600px;  height: 500px; }
+ 
+ .rightside{ width: 55%; height: 400px; text-decoration: none;color: rgb(235, 156, 235); text-align: center; margin-top: 100px; padding: 40px;}
+ 
+ .rightside h1{ text-align: center;
+     color: black;
+     font-size: 50px;
+     font-weight: 900;
+     
+     text-transform: uppercase; } 
+
+ .rightside p {  
+    font-size: 1.1rem; padding: 20px 0; color: black; 
+    font-size: 17px; font-weight: bold; font-size: 20px;
+    text-decoration: none;}
+ .rightside button{   font-size: 17px;
+     font-weight: 600;
+     color:black;
+     text-transform: uppercase;
+     background:palevioletred; 
+     border-radius: 4px 4px 4px 4px;
+     padding: 20px 55px ; 
+ }
+ .rightside button:hover{
+       background: grey;
+ }
+ .rightside a{
+    text-decoration: none;
+    color: black;
+ }
+    
+

@@ -1,0 +1,32 @@
+body{
+    background: rgb(252, 218, 238);
+}
+
+div.main {
+    max-width: 960px;
+    margin: auto;
+}
+
+div.product {
+    margin: 0px 0px 5px 0px;
+    height: 350px;
+    border: blueviolet dotted 1px;
+}
+
+img {
+    float: left;
+    margin: 0px 40px 0px 25px;
+}
+
+ul {
+    margin: 110px 5px 0px 0px
+}
+ h1{
+    margin: 0;
+    padding: 0 0 20px;
+    padding-left: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    top: 10%;
+    padding-top: 10px;}

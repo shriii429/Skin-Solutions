@@ -1,0 +1,100 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+    background-color: rgb(252, 218, 238);
+    
+}
+
+
+.loginbox{
+    width: 500px;
+    height: 500px;
+    background:rgb(252, 218, 238);;
+    color:black;
+    top: 55%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    background: palevioletred;;
+    height: 40px;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius:20px;
+
+}
+.loginbox input[type="submit"]:hover
+{ background: grey;}
+
+.loginbox a{
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 20px;
+    color: rgb(41, 40, 40);
+    display: flex;
+}
+.loginbox a:hover{
+    background: grey;}
+
+
+.back button{
+    font-weight: 600;
+    color:black;
+    text-transform: uppercase;
+    background:rgb(252, 218, 238); 
+    border-radius: 0px;
+    padding: 5px 25px ; 
+    text-decoration: none;
+
+}
+.signupMsg{
+    color: green;
+    text-align: center;
+}
+.back a{
+    text-decoration: none;
+    color: black;
+}
+.alert {
+    color: red;
+    text-align: center;
+    font-size: large;
+    
+
+}
